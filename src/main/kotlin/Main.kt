@@ -1,3 +1,7 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import data.AppState
+import ui.ArchivesMenu
+
+fun main() {
+    val state = AppState()
+    ArchivesMenu(state).start()
 }
